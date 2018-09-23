@@ -14,8 +14,12 @@ Homework stuff
 `mvn -DskipTests=true clean tomcat7:run -P local`
 
 GET http://localhost:9090/superbook
+
 GET http://localhost:9090/superbook/{id}
+
 POST http://localhost:9090/superbook
+
 PUT http://localhost:9090/superbook/{id}
+
 DELETE http://localhost:9090/superbook/{id}
 
